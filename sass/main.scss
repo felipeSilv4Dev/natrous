@@ -132,7 +132,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 .btn--white {
-  background-color: $color-white;
+  background-color: #fff;
   color: $color-grey-dark;
 }
 
@@ -148,7 +148,7 @@ body {
   z-index: -1;
   transition: all 0.4s;
 }
-.btn-white::after {
+.btn--white::after {
   background-color: $color-white;
 }
 
